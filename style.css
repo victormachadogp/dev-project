@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto;
+}
+
+.header-wave {
+    max-width: 600px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    top: 0px;
+    /* left: 20px; */
+    justify-content: space-between;
+}
+
+.image-holder {
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+/* Banner Hero */
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.description {
+    color: #8a8a8a;
+    font-weight: 300;
+    font-size: 1.5rem;
+    max-width: 70%;
+    margin: 6px 0 10px 0;
+
+}
+
+.text-description {
+    margin: 6px 0 25px 0;
+
+}
+
+.button-style {
+    background: linear-gradient(259.77deg, #FFFFFF -9.43%, rgba(255, 255, 255, 0.586965) -3.62%, rgba(255, 255, 255, 0) 45.03%), #438BCD;
+    padding: 12px 20px 12px 20px ;
+    border-radius: 6px;
+    color: white;
+    border: 0px solid red;
+    font-size: 1.2rem;
+    
+}
+
+.test {
+    font-weight: 300;
+}
+
+.grid-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10rem 5vh 0 5vh;
+}
+
+.hero-image {
+    width: 80%;
+    max-width: 35rem;
+    z-index: 999;
+    position: relative;
+}
+
+#circle-sun {
+    content: "";
+    width: 250px;
+    height: 250px;
+    background: #F1637D;
+    border-radius: 50%;
+  
+    position: absolute;
+    top: 140px;
+    right: 220px;
+    z-index: 1;
+    animation: infinite-translate-y 3s infinite 0s ease-in-out;
+  }
+
+  @keyframes infinite-translate-y {
+    0% {
+      transform: rotate(0);
+    }
+    50% {
+      transform: rotate(0) translateY(06px);
+    }
+    100% {
+      transform: rotate(0);
+    }
+  }
+
+  .text {
+    place-self: center;
+  }

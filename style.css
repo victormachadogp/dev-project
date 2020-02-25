@@ -79,8 +79,8 @@ h1 {
 
 #circle-sun {
     content: "";
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background: #F1637D;
     border-radius: 50%;
   
@@ -105,4 +105,49 @@ h1 {
 
   .text {
     place-self: center;
+  }
+
+  @media (max-width: 930px) {
+
+    .header-wave {
+        max-width: 100%;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #circle-sun {
+        content: "";
+        width: 120px;
+        height: 120px;
+        background: #F1637D;
+        border-radius: 50%;
+        position: absolute;
+        top: 150px;
+        right: 100px;
+        z-index: 1;
+        animation: infinite-translate-y 3s infinite 0s ease-in-out;
+      }
+
+      .grid-hero {
+        grid-template-columns: 1fr;
+        place-items: center;
+
+      }
+
+      .image-container {
+          grid-row: 1/2 ;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 50px;
+          margin-top: 30px;
+      }
+
+      .description {
+          max-width: 100%;
+      }
+
+      .button-style {
+          display: block;
+          text-align: center;
+      }
   }

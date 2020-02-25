@@ -9,7 +9,7 @@ body {
 }
 
 .header-wave {
-    max-width: 600px;
+    max-width: 900px;
     position: absolute;
     pointer-events: none;
 }
@@ -41,12 +41,12 @@ h1 {
     font-weight: 300;
     font-size: 1.5rem;
     max-width: 70%;
-    margin: 6px 0 10px 0;
+    margin: 16px 0 20px 0;
 
 }
 
 .text-description {
-    margin: 6px 0 25px 0;
+    margin: 6px 0 55px 0;
 
 }
 
@@ -122,8 +122,8 @@ h1 {
         background: #F1637D;
         border-radius: 50%;
         position: absolute;
-        top: 150px;
-        right: 100px;
+        top: 100px;
+        right: 110px;
         z-index: 1;
         animation: infinite-translate-y 3s infinite 0s ease-in-out;
       }
@@ -131,6 +131,7 @@ h1 {
       .grid-hero {
         grid-template-columns: 1fr;
         place-items: center;
+        margin: 6rem 5vh 0 5vh;
 
       }
 
@@ -139,12 +140,18 @@ h1 {
           display: flex;
           justify-content: center;
           margin-bottom: 50px;
-          margin-top: 30px;
       }
 
       .description {
           max-width: 100%;
+          margin: 13px 0 13px 0;
+          line-height: 1.2;
       }
+
+      .text-description {
+        margin: 6px 0 25px 0;
+    
+    }
 
       .button-style {
           display: block;

@@ -67,7 +67,7 @@ h1 {
 .grid-hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 10rem 5vh 0 5vh;
+    margin: 11rem 5vh 0 5vh;
 }
 
 .hero-image {
@@ -157,4 +157,91 @@ h1 {
           display: block;
           text-align: center;
       }
+  }
+
+  /* Section 02 */
+
+  .title-info {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .section-title {
+    font-size:2rem;
+    margin-bottom: 4rem;
+  }
+
+  .bold-text {
+      font-weight: bold;
+  } 
+
+  .our-product {
+      margin-top: 250px;
+  }
+
+  .grid-section {
+      display: grid;
+      grid-template-columns: 50% 1fr;
+      grid-template-rows: 220px 220px 300px;
+      margin: 0 30px 0 80px ;
+  }
+
+  .section-info {
+    margin: 0 100px 0 100px;
+  }
+
+  .box-1 {
+      grid-column-start: 1;
+      grid-column-end: 2;
+  }
+
+  .box-2 {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+  }
+
+  .box-3 {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 3;
+      grid-row-end: 4;
+  }
+
+  .image-top {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: -70px;
+  }
+
+  .image-bottom {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-top: -30px;
+  }
+
+  .box {
+      /* margin-bottom: 140px ; */
+  }
+
+  .images-section {
+      width: 65% ;
+  }
+
+  .number {
+      font-size: 2rem;
+      font-weight: 700;
+  }
+
+  .paragraph {
+       width: 70%;
+       font-size: 1.5rem;
+       font-weight: 300;
+       margin: 5px 20px 20px 20px;
   }

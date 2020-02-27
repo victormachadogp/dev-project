@@ -164,7 +164,7 @@ h1 {
   .our-product {
     background-color: #f7f7f7;
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    /* padding-bottom: 6rem; */
   }
 
   .title-info {
@@ -283,5 +283,55 @@ h1 {
     width: 100%;
     margin: 5px 0px 0px 0px;
 }
+  }
+
+  .space-image {
+    width: 100%;
+    position: relative;
+    top: 15px;
+  }
+
+  /* Portifolio */
+
+  .portfolio-info {
+
+    text-align: center;
+    margin-top: 3rem;
 
   }
+
+  .portfolio-grid {
+
+    display: grid;
+    grid-template-columns: 39% 61%;
+  }
+
+  .techgirl {
+    width: 98%;
+    
+  }
+
+  .guitar {
+    width: 100%;
+  }
+
+/* Second Portfolio Grid */
+
+.portfolio-gridTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.strawberry {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  width: 100%;
+}
+
+.headphonegirl {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  width: 90%;
+}
+

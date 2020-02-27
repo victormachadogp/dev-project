@@ -319,8 +319,8 @@ h1 {
 
 .portfolio-gridTwo {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 35% 35% 1fr;
+  grid-template-rows: 27% 1fr;
 }
 
 .strawberry {
@@ -332,6 +332,26 @@ h1 {
 .headphonegirl {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
-  width: 90%;
+  width: 98%;
+  /* height: 300px; */
+}
+
+.dajuice {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  width: 98%;
+}
+
+.photograph {
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+  width: 100%;
+}
+
+.wintergirl {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  width: 98%;
+  height: 98%;
 }
 

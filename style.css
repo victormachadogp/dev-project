@@ -56,11 +56,11 @@ h1 {
     border-radius: 6px;
     color: white;
     border: 0px solid red;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     
 }
 
-.test {
+.text-button {
     font-weight: 300;
 }
 
@@ -353,5 +353,71 @@ h1 {
   grid-row: 2 / 3;
   width: 98%;
   height: 98%;
+}
+
+/* Contato */
+
+.contact {
+  background-color: #fcfcfc;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.contact-form {
+  margin-left: 4rem;
+}
+
+.contact-info {
+  width: 87%;
+  margin-bottom: 3.5rem;
+}
+
+.contact-section {  
+  font-size:2rem;
+  margin-bottom: .4rem ;
+}
+
+.contact-description {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #8a8a8a;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.input-area {
+  padding: 15px;
+  background-color: #f6f6f6;
+  border: 0px solid white;
+  border-radius: 24px;
+  margin-bottom: 20px;
+  width: 75%;
+}
+
+.message-input {
+  padding-bottom: 140px;
+}
+
+.button-contact {
+  background: linear-gradient(255.65deg, #FFFFFF -7.48%, rgba(255, 255, 255, 0.557292) 10.4%, rgba(255, 255, 255, 0) 29.26%), #F57E7E;
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  border: 0px solid;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+.contact-image {
+  width: 80%;
+}
+
+.container-contact {
+  align-self: center;
+
 }
 

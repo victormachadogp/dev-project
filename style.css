@@ -473,3 +473,27 @@ h1 {
 
 }
 
+.footer-container {
+  background-color: #FF6C6C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.logo-footer {
+  width: 70px;
+  height: 70px;
+}
+
+.logo-name {
+  display: inline;
+  /* vertical-align: middle; */
+  font-family: "ubuntu";
+  color: white;
+  font-size: 1.4rem;
+}
+
+
+

@@ -22,7 +22,18 @@ body {
     justify-content: space-between;
 }
 
-.image-holder {
+.nav-links {
+  font-weight: 300;
+  margin: 20px;  
+
+}
+
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+
 }
 
 .image-logo {
@@ -69,7 +80,7 @@ h1 {
 .grid-hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 11rem 5vh 0 5vh;
+    margin: 9rem 5vh 0 5vh;
 }
 
 .hero-image {
@@ -109,13 +120,35 @@ h1 {
     place-self: center;
   }
 
+  .nav-mobile {
+    display: none;
+  }
+
   @media (max-width: 930px) {
 
     .header-wave {
-        max-width: 100%;
-        position: absolute;
+        width: 100%;
+        top: 0px;
         pointer-events: none;
+        display: none;
     }
+      
+    .nav-mobile {
+      max-width: 100%;
+      display: inline;
+      position: absolute;
+    }
+
+    .our-product {
+      margin-top: 100px !important; 
+    }
+
+    .image-logo {
+      width: 65px;
+      height: 65px;
+    }
+
+    
 
     #circle-sun {
         content: "";
@@ -124,8 +157,8 @@ h1 {
         background: #F1637D;
         border-radius: 50%;
         position: absolute;
-        top: 100px;
-        right: 110px;
+        top: 130px;
+        right: 100px;
         z-index: 1;
         animation: infinite-translate-y 3s infinite 0s ease-in-out;
       }
@@ -133,7 +166,7 @@ h1 {
       .grid-hero {
         grid-template-columns: 1fr;
         place-items: center;
-        margin: 6rem 5vh 0 5vh;
+        margin: 7rem 5vh 0 5vh;
 
       }
 

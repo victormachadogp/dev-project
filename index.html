@@ -138,8 +138,8 @@
                         <p class="contact-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum dolor sit amet, consectetur adipiscing elit. </p>
                     </div>
                 
-                <div class="form-section">
-                    <form>
+                <div class="form-section form-elements">
+                    <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzJg_h6_iadmLARPD-ps9PbSepr5lMaK52elFgw/exec">
                         <div>
                             <input class="input-area" id="name" placeholder="Nome" name="name" type="text">
                         </div>
@@ -153,6 +153,11 @@
                         </div>
 
                         <button type="submit" class="button-contact">&nbsp;ENVIAR</button>
+
+                        <div style="display:none" class="thankyou_message">
+                            <h2><em>Obrigado!</em> por nos contatar, entraremos em contato em breve :).
+                            </h2>
+                        </div>
 
                     </form>
                 </div>
@@ -178,6 +183,6 @@
     
 
     
-    
+    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>    
 </body>
 </html>

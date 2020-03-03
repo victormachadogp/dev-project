@@ -33,7 +33,6 @@ body {
   margin-right: 10px;
   text-decoration: none;
   color: white;
-
 }
 
 .image-logo {
@@ -132,6 +131,11 @@ h1 {
         pointer-events: none;
         display: none;
     }
+
+    .nav-link {
+      margin-left: 0px;
+      margin-right: 10px;
+    }
       
     .nav-mobile {
       max-width: 100%;
@@ -139,13 +143,15 @@ h1 {
       position: absolute;
     }
 
+    
+
     .our-product {
       margin-top: 100px !important; 
     }
 
     .image-logo {
-      width: 65px;
-      height: 65px;
+      width: 62px;
+      height: 62px;
     }
 
     
@@ -397,11 +403,6 @@ h1 {
     grid-row: 1 / 3;
     width: 100%;
   }
-
-  /* .portfolio-grid {
-
-    grid-template-columns: 100%;
-  } */
 
   .techgirl {
     display: none;

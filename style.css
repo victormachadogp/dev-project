@@ -486,6 +486,29 @@ h1 {
   width: 75%;
 }
 
+.thankyou_message {
+  text-align: center;
+}
+
+.fa-check-circle {
+  color: #28bf2f;
+  font-size: 5rem;
+  margin-bottom: 30px;
+}
+
+.change-color {
+  color: #438BCD;
+}
+
+.light-text {
+  font-weight: 300;
+}
+
+.thankyou-font {
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
 .message-input {
   padding-bottom: 140px;
 }

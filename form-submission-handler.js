@@ -70,13 +70,19 @@
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4 && xhr.status === 200) {
           form.reset();
-          var formElements = form.querySelector(".form-elements")
-          if (formElements) {
-            formElements.style.display = "none"; // hide form
+          // var formElements = form.querySelector(".form-elements")
+          // if (formElements == null) {
+
+          //   formElements.style.display = "none"; // hide form
+          // }
+          var formGone = document.querySelector(".form-elements")
+          if (formGone) {
+            formGone.style.display = "none"; // hide form
           }
-          var thankYouMessage = form.querySelector(".thankyou_message");
+          var thankYouMessage = document.querySelector(".thankyou_message");
           if (thankYouMessage) {
             thankYouMessage.style.display = "block";
+            thankYouMessage.style.textAlign = "center";
           }
         }
     };

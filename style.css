@@ -69,7 +69,6 @@ h1 {
     color: white;
     border: 0px solid red;
     font-size: 1.1rem;
-    
 }
 
 .text-button {
@@ -202,6 +201,80 @@ h1 {
 
   /* Section 02 */
 
+  .grid-building {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    padding: 2.5rem 1rem 1.5rem 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-color: 1px solid white;
+    border-radius: 6px;
+  }
+
+  .background-first {
+    background-color: #EE8181;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-top: 250px;
+  }
+
+  .image-half {
+    width: 100%;
+  }
+
+  .text-half {  
+    /* text-align: center; */
+    font-size: 1.7rem;
+    margin-top: 1.9rem;
+  }
+
+  .text-light {
+    font-weight: 300;
+  }
+
+  .blue-ball {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .red-ball {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .text-grid {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .paragraph-half {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  .title-building {
+    color: white;
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+  }
+
+  .flex-try {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  @media (max-width: 930px) {
+
+    .grid-building {
+      grid-template-columns: 1fr;      
+    }
+  }
+
+  /* Section 03 */
+
   .our-product {
     background-color: #f7f7f7;
     padding-top: 6rem;
@@ -224,7 +297,7 @@ h1 {
   } 
 
   .our-product {
-      margin-top: 250px;
+      /* margin-top: 250px; */
   }
 
   .grid-section {

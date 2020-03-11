@@ -43,6 +43,12 @@ body {
 
 /* Banner Hero */
 
+.test-shadow {
+  padding-bottom: 6rem;
+  box-shadow: 0px 30px 47px -35px rgba(245,245,245,1);
+
+}
+
 h1 {
     font-weight: 700;
     font-size: 3rem;
@@ -272,6 +278,67 @@ h1 {
       grid-template-columns: 1fr;      
     }
   }
+
+  /* Section 02 New Design */
+
+  .new-background {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  .grid-banner {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-items: center; */
+  }
+
+  .box-banner1 {
+    align-self: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .box-banner1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .text-text {
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem; 
+    font-size: 1.1rem;
+  }
+
+  .banner-title {
+    color: #2669A7;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+
+  .title-banner {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 6rem;
+  }
+
+  @media (max-width: 930px) {
+
+    .grid-banner {
+      grid-template-columns: 1fr;
+    }
+
+    .banner-box2 {
+      margin-top: 5rem;
+    }
+
+
+  }
+
+
 
   /* Section 03 */
 

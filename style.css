@@ -283,7 +283,7 @@ h1 {
 
   .new-background {
     margin-top: 8rem;
-    margin-bottom: 8rem;
+    margin-bottom: 7rem;
   }
 
   .grid-banner {
@@ -325,6 +325,13 @@ h1 {
     margin-bottom: 6rem;
   }
 
+  .line-decoration {
+    width: 20%;
+    height: 1px;
+    margin: 2rem auto;
+    background-color: #ee5555;
+  }
+
   @media (max-width: 930px) {
 
     .grid-banner {
@@ -335,10 +342,15 @@ h1 {
       margin-top: 5rem;
     }
 
+    .line-decoration {
+      width: 20%;
+      height: 1px;
+      margin: 2rem auto;
+      background-color: #ee5555;
+    }
+
 
   }
-
-
 
   /* Section 03 */
 
